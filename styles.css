@@ -116,11 +116,21 @@ footer {
     background-color: #00408f;
     color: white;
     text-align: center;
-    padding: 2px;
-    font-size: 10px;
+    padding: 10px 0; /* Improved spacing */
+    font-size: 12px;
     position: fixed;
     bottom: 0;
     left: 0;
+    display: flex;
+    align-items: center; /* Centers items horizontally */
+    justify-content: center; /* Centers text and logo */
+}
+
+/* Instagram Logo */
+.instagram-logo {
+    width: 24px; /* Adjusted size */
+    height: 24px;
+    margin-left: 8px; /* Small space after "Club" */
 }
 
 /* Responsive styles for medium screens (Samsung phones, tablets) */
